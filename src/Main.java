@@ -1,26 +1,3 @@
-
-/*
-Chapter 7. PC #16. 2D Array Operations with Additional Requirements
-Write a program that creates an ArrayList of ArrayList of Doubles. The program should ask the user to enter the filename from the keyboard and validate the file for existence. Once the file is verified, the program should load the two-dimensional ArrayList with test data from the file. Be careful, as some of the files will contain rows with different number of elements. The program should work regardless whether the input data is perfectly rectangular or ragged. The program should have the following methods:
-• main. Main entry point for the program.
-• getRowSubtotal. This method should accept a two-dimensional ArrayList as its first argument
-and an integer as its second argument. The second argument should be the index of the row in the ArrayList.
- The method should return the subtotal of the values in the specified row.
-• getColSubtotal. This method should accept a two-dimensional ArrayList as its first argument
- and an integer as its second argument. The second argument should be the index of the column in the
- ArrayList. The method should return the subtotal of the values in the specified column. I
- f any of the rows has a size that is less than the column number, then that row should be skipped when calculating the column subtotal.
-• getTotal. This method should accept a two-dimensional array as its argument and return the total of all
- the values in the array.
-Demonstrate each of the methods in this program.
-
-
-
-
-
- */
-
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
